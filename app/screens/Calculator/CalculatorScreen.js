@@ -42,9 +42,9 @@ function CalculatorScreen(props) {
                         </Button>
                     </Row>
                     <Row>
-                        <Button type="num" />
-                        <Button type="num" />
-                        <Button type="num" />
+                        <Button type="num" color={colors.darkGray} />
+                        <Button type="num" color={colors.darkGray} />
+                        <Button type="num" color={colors.darkGray} />
                         <Button 
                             color={colors.orange}
                             type="operator"
@@ -53,9 +53,9 @@ function CalculatorScreen(props) {
                         </Button>
                     </Row>
                     <Row>
-                        <Button type="num" />
-                        <Button type="num" />
-                        <Button type="num" />
+                        <Button type="num" color={colors.darkGray} />
+                        <Button type="num" color={colors.darkGray} />
+                        <Button type="num" color={colors.darkGray} />
                         <Button 
                             color={colors.orange}
                             type="operator"  
@@ -64,9 +64,9 @@ function CalculatorScreen(props) {
                         </Button>
                     </Row>
                     <Row>
-                        <Button type="num" />
-                        <Button type="num" />
-                        <Button type="num" />
+                        <Button type="num" color={colors.darkGray} />
+                        <Button type="num" color={colors.darkGray} />
+                        <Button type="num" color={colors.darkGray} />
                         <Button 
                             color={colors.orange}
                             type="operator" 
@@ -77,10 +77,12 @@ function CalculatorScreen(props) {
                     <Row>
                         <Button 
                             size="double"
-                            type="num"
+                            type="num" 
+                            color={colors.darkGray}
                         />
                         <Button
-                            type="num"
+                            type="num" 
+                            color={colors.darkGray}
                         >
                             .
                         </Button>
