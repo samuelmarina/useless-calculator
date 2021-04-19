@@ -79,7 +79,11 @@ function CalculatorScreen(props) {
                             size="double"
                             type="num"
                         />
-                        <Button>.</Button>
+                        <Button
+                            type="num"
+                        >
+                            .
+                        </Button>
                         <Button 
                             color={colors.orange}
                             type="equal" 
