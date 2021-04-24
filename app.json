@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "calculator-app",
+    "name": "Useless Calculator",
     "slug": "calculator-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.samuellmiller.calculatorapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
